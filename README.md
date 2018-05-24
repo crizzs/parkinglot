@@ -1,7 +1,5 @@
 # Parking Lot Application
 
-Please place the application into your `$GOPATH/src`. You don't require any added dependencies except for testify.
-
 This application can be easily cross-compiled into other OS distribution using Golang cross-compiler.
 
 <font color="#0099ff" size=12 >Folder Structure</font>
@@ -17,11 +15,11 @@ This application can be easily cross-compiled into other OS distribution using G
 
 How to start?
 -----------------
-
-### 1. `Place the folder into your GO workspace`
-### 2. `./parking_lot.sh` - This will run the test scripts for UNIT and Main Package testing 
-### 3A. `go run main.go` - This will start the interactive command terminal
-### 3B. `go run main.go sample_file/file_inputs.txt` - This will run the file input (You can change the file directory)
+Use Makefile to build
+### 1. `go get github.com/crizzs/parkinglot`
+### 2. Type `make` - This will run the test scripts for UNIT and Main Package testing 
+### 3A. `./main` - This will start the interactive command terminal
+### 3B. `./main sample_file/file_inputs.txt` - This will run the file input (You can change the file directory)
 
 
 -----------------------------------------

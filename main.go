@@ -12,7 +12,7 @@ import (
 	"bufio"
 	"strings"
 	"strconv"
-	parklots "./src"
+	parklots "github.com/crizzs/parkinglot/src"
 )
 
 func main(){
